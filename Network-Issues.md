@@ -25,3 +25,25 @@ Renewing the IP address and flushing the DNS cache restored internet connectivit
 
 ### What I Learned
 Basic network troubleshooting steps such as checking IP configuration and DNS can quickly resolve most connectivity issues.
+## Issue 2: Unable to Access Internal Network Resources
+
+### Symptoms
+- Internet access works
+- Cannot access shared folders or internal applications
+
+### Possible Causes
+- Incorrect DNS server configuration
+- VPN not connected
+- Firewall restrictions
+
+### Troubleshooting Steps
+1. Verified DNS server settings
+2. Tested connectivity to internal servers
+3. Confirmed VPN connection was active
+4. Temporarily disabled firewall for testing
+
+### Resolution
+Connecting to the VPN restored access to internal resources.
+
+### What I Learned
+Internal resource access often depends on proper DNS configuration and secure VPN connections.
