@@ -29,3 +29,11 @@ This project was created to demonstrate practical IT support experience and a st
 ## Career Goal
 To progress into a Cyber Security Analyst role by building strong foundations in IT support, networking, and security operations.
 
+## Lab Simulation (No Hardware Required)
+
+| Scenario | Steps Taken | Outcome |
+|----------|------------|---------|
+| User cannot access internet | ipconfig /renew, flush DNS, ping test | Connectivity restored |
+| Slow Windows PC | Task Manager check, remove startup apps | PC performance improved |
+| Locked user account | Verified identity, reset password | User regained access |
+| Phishing email clicked | Disconnect device, malware scan | No compromise |
