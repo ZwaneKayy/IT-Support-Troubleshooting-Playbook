@@ -37,3 +37,8 @@ To progress into a Cyber Security Analyst role by building strong foundations in
 | Slow Windows PC | Task Manager check, remove startup apps | PC performance improved |
 | Locked user account | Verified identity, reset password | User regained access |
 | Phishing email clicked | Disconnect device, malware scan | No compromise |
+### Next Steps / Improvements
+- Implement automation scripts for repetitive tasks
+- Build a virtual lab for testing network issues
+- Explore Windows PowerShell for advanced troubleshooting
+- Gain hands-on experience with Active Directory and network monitoring tools
