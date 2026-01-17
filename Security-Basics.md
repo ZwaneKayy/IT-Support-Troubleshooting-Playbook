@@ -3,44 +3,53 @@
 This document outlines basic security-related incidents and response steps commonly handled by IT support teams.
 ## Issue 1: User Clicked a Suspicious Email Link
 
-### Incident Description
-A user reported clicking a suspicious link in an email that appeared to be a phishing attempt.
+### Scenario
+A user clicked a suspicious email link that appeared to be phishing.
 
-### Potential Risks
-- Credential theft
-- Malware infection
-- Unauthorized access
+### Severity: High
+
+### Symptoms
+- User opened an unknown email link
+- Potential risk of malware or credential theft
+- User reported the incident immediately
+
+### Expected Result
+No security breach; user avoids phishing emails
+
+### Actual Result
+User clicked the link, but no malware was installed
 
 ### Response Steps
-1. Instructed the user to disconnect the device from the network
+1. Instructed user to disconnect device from network
 2. Ran antivirus and malware scans
-3. Reset the user's account password
+3. Reset the user’s account password
 4. Checked for unusual login activity
 5. Educated the user on identifying phishing emails
 
 ### Resolution
-No malware was detected, and the account was secured by resetting credentials.
+No malware detected; account secured by resetting credentials
+
+### Skills Demonstrated
+- Cybersecurity incident response
+- User education on phishing
+- Malware scanning and account protection
+- Documentation of security events
 
 ### Lessons Learned
-Early reporting and quick response can prevent security incidents from escalating.
-## Issue 2: Multiple Failed Login Attempts Detected
+- Quick reporting prevents escalation
+- Users are the first line of defense against phishing
 
-### Incident Description
-Multiple failed login attempts were detected on a user account, indicating a possible brute-force attempt.
+### Lab Simulation (No Hardware Required)
+| Step | Action | Expected Outcome |
+|------|--------|----------------|
+| 1 | User reports phishing | Confirm report and isolate device |
+| 2 | Run malware scans | Detect or rule out infection |
+| 3 | Reset account password | Secure credentials |
+| 4 | Review login activity | Ensure no unauthorized access |
+| 5 | Educate user | Prevent future incidents |
 
-### Potential Risks
-- Unauthorized access
-- Account compromise
+### Next Steps / Improvements
+- Explore SOC Tier 1 monitoring tasks
+- Practice identifying phishing in lab simulations
+- Learn SIEM basics to detect suspicious activity
 
-### Response Steps
-1. Reviewed login activity logs
-2. Temporarily locked the account
-3. Reset the user's password
-4. Enabled account lockout policy
-5. Advised the user on strong password practices
-
-### Resolution
-The account was secured, and no unauthorized access occurred.
-
-### Lessons Learned
-Monitoring login activity helps detect and stop potential security threats early.
