@@ -23,3 +23,24 @@ No malware was detected, and the account was secured by resetting credentials.
 
 ### Lessons Learned
 Early reporting and quick response can prevent security incidents from escalating.
+## Issue 2: Multiple Failed Login Attempts Detected
+
+### Incident Description
+Multiple failed login attempts were detected on a user account, indicating a possible brute-force attempt.
+
+### Potential Risks
+- Unauthorized access
+- Account compromise
+
+### Response Steps
+1. Reviewed login activity logs
+2. Temporarily locked the account
+3. Reset the user's password
+4. Enabled account lockout policy
+5. Advised the user on strong password practices
+
+### Resolution
+The account was secured, and no unauthorized access occurred.
+
+### Lessons Learned
+Monitoring login activity helps detect and stop potential security threats early.
